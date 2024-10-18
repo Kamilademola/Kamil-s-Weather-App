@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<link rel="stylesheet" href="../CSS/style.css">
+<body>
+    <main>
+        <div class="search-bar">
+            <input type="text" name=cityName placeholder="enter city name" spellcheck="false">
+        <span><img src="../Assets/IMG/Search.jpg" id="search-icon"></span>
+        <button id="clear-icon" style="display:none;">X</button>
+        </div>
+        <div class="error">
+        <p>Invalid city name</p>
+        </div>
+        <article>
+            <div >
+                <img src="../Assets/Icons/rain.png" alt="" id="weather-icon">
+            </div>
+    
+            <div class="degree-num">
+                <h1 class="temp">22<span id="degree">°C</span></h1>
+                <h2 class="city">Abuja</h2>
+            </div>
+      
+            <footer>
+                <section id="first-sec">
+                    <div><img src="../Assets/Icons/humidity.png" alt=""></div>
+                    <div>
+                      <div>
+                        <h1 class="humidity">50%</h1>
+                        <p>Humidity</p>
+                      </div>
+                    </div>
+                </section>
+                <section id="sec-sec">
+                    <div><img src="../Assets/Icons/wind.png" alt=""></div>
+                  <div>
+                    <h1 class="wind">5.66km/hr</h1>
+                    <p>Wind speed</p>
+                  </div>
+                </section>
+            </footer>
+
+        </article>
+    </main>
+    <script src="../Javascript/index.js"></script>
+</body>
+</html>
